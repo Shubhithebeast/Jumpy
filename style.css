@@ -1,97 +1,92 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
+body {
     background-color: aqua;
     color: white;
     overflow: hidden;
     font-family: "Sofia", sans-serif;
-
 }
 
-.gameContainer{
+.gameContainer {
     background-image: url(pic/bg.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
-    width:100%;
+    width: 100%;
     height: 100vh;
 }
 
-.kid{
+.kid {
     background-image: url(pic/kid_3.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 190px;
-    height:120px;
+    height: 120px;
     position: absolute;
     bottom: 0;
-    left:0;
+    left: 0;
 }
 
-.zombie{
+.zombie {
     width: 300px;
     height: 150px;
     background-image: url(pic/zomb.png);
     background-size: cover;
     position: absolute;
     bottom: 0;
-    left:44vw;
+    left: 44vw;
 }
 
-.gameOver{
+.gameOver {
     position: relative;
     top: 63px;
     font-size: 50px;
     text-align: center;
-    /* visibility: hidden; */
-
 }
 
-#scoreCont{
+#scoreCont {
     position: absolute;
-    right:45px;
-    top:25px;
-    width:120px;
-    border:3px inset white;
+    right: 45px;
+    top: 25px;
+    width: 120px;
+    border: 3px inset white;
     border-radius: 5px;
     font-weight: bold;
-    padding :10px;
+    padding: 10px;
     text-align: center;
-  
 }
-.animateKid{
+
+.animateKid {
     animation: kid 0.6s linear;
-    
 }
 
 @keyframes kid {
-
-    0%{
-        bottom:0;
+    0% {
+        bottom: 0;
     }
-    50%{
-        bottom:300px;
+    50% {
+        bottom: 300px;
     }
-    100%{
-        bottom:0px;
-        /* left:6vw; */
+    100% {
+        bottom: 0px;
     }
-    
 }
 
-.zombieAni{
-    animation:zombieAni 5s linear infinite;
-   
+.zombieAni {
+    animation: zombieAni 5s linear infinite;
 }
+
 @keyframes zombieAni {
-
-    0%{
-        left:100vw;
+    0% {
+        left: 100vw;
     }
-    100%{
-        left:-10vw;
+    100% {
+        left: -10vw;
     }
-    
 }
+
+
+
+
