@@ -1,4 +1,4 @@
-<h2><b>Jumpy Game</b></h2>
+<h2><b><a href="https://jumpybyshubham.netlify.app/" >Jumpy Game </a></b></h2>
 <hr>
 <p>Welcome to Jumpy, a thrilling and entertaining game where you control a kid trying to avoid zombies and score points. Get ready for some intense gaming sessions!</p>
 
