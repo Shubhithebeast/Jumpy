@@ -45,7 +45,7 @@ Press any key to play again.</p>
 
 <b>Screenshots</b><br>
 <hr>
-![image](https://github.com/Shubhithebeast/Jumpy/assets/71927968/4741ae1a-4bbb-4ddc-bcb9-d8fb917752c1)
+<img src="https://github.com/Shubhithebeast/Jumpy/assets/71927968/4741ae1a-4bbb-4ddc-bcb9-d8fb917752c1" />
 
 
 <b>Contributing</b><br>
